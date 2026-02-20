@@ -44,3 +44,20 @@ This project includes a Streamlit web interface, a trained Machine Learning mode
 ---
 
 ## 📁 Project Structure
+
+adaptive-traffic-system/
+│
+├── app.py # Streamlit web application
+├── train_model.py # Model training script
+├── requirements.txt # Required libraries
+├── README.md # Project documentation
+├── .gitignore # Ignore unnecessary files
+│
+├── data/
+│ └── traffic.csv # Dataset
+│
+├── models/
+│ └── traffic_model.pkl # Trained ML model
+│
+└── videos/
+└── traffic-2.mp4 # Traffic simulation video
